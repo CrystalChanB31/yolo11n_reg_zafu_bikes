@@ -69,8 +69,7 @@
 5.1 数据集的获取和训练：<br>
 自行车：https://universe.roboflow.com/deeplearning-fcpdy/bike-kckrz<br>
 电动自行车：https://universe.roboflow.com/project-vq6cj/e-bike-hbroc<br>
-将下载好的数据集放到datasets文件夹下，运行train.py
-
+将下载好的数据集放到datasets文件夹下，运行train.py<br>
 5.2 pip install -r requirements.txt 进行依赖的安装<br>
 5.3 python track.py 你录制的视频名称.mp4<br>
 5.4 获得输出output.mp4
