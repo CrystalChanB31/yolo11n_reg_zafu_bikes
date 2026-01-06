@@ -65,11 +65,13 @@
 | mixup | 0.15 | MixUp 增强（15% 概率） |
 | copy_paste | 0.1 | Copy-Paste 增强（10% 概率） |
 # 5.用法（假设已经配置好了cuda和pytorch等深度学习环境）
-5.1 下载这个代码包
+5.0 下载这个代码包<br>
+5.1 数据集的获取和训练：<br>
+自行车：https://universe.roboflow.com/deeplearning-fcpdy/bike-kckrz<br>
+电动自行车：https://universe.roboflow.com/project-vq6cj/e-bike-hbroc<br>
+将下载好的数据集放到datasets文件夹下，运行train.py
 
-5.2 pip install -r requirements.txt 进行依赖的安装
-
-5.3 python track.py 你录制的视频名称.mp4
-
+5.2 pip install -r requirements.txt 进行依赖的安装<br>
+5.3 python track.py 你录制的视频名称.mp4<br>
 5.4 获得输出output.mp4
 
