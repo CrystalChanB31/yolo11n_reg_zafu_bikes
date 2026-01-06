@@ -1,0 +1,32 @@
+# YOLO非机动车检测项目依赖
+# 基于 track.py 和 train.py 生成
+
+# 核心依赖
+ultralytics>=8.0.0  # YOLO模型库
+
+# 计算机视觉
+opencv-python>=4.5.0  # cv2 - 用于视频处理和图像操作
+numpy>=1.21.0  # 数值计算
+
+# PyTorch (ultralytics的依赖，根据CUDA版本选择)
+# CPU版本:
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# GPU版本 (CUDA 11.8):
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+
+# GPU版本 (CUDA 12.1):
+# torch>=2.0.0+cu121
+# torchvision>=0.15.0+cu121
+
+# 注意：PyTorch需要根据你的系统环境单独安装
+# 访问 https://pytorch.org/ 获取正确的安装命令
+
+# 可选依赖（用于其他脚本）
+# PyYAML>=6.0  # 如果使用 train_improved.py 等需要yaml的脚本
+# pandas>=1.3.0  # 如果处理CSV结果文件
+# matplotlib>=3.5.0  # 如果绘制图表
+# Pillow>=8.0.0  # 图像处理（ultralytics可能已包含）
+
