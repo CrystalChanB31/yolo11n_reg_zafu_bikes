@@ -73,4 +73,4 @@
 5.2 pip install -r requirements.txt 进行依赖的安装<br>
 5.3 python track.py 你录制的视频名称.mp4<br>
 5.4 获得输出output.mp4
-
+## 实现效果参见【https://www.leexinghai.com/aic/aifinal】
