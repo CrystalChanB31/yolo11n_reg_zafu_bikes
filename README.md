@@ -64,4 +64,9 @@
 | mosaic | 1.0 | Mosaic 增强（100% 概率） |
 | mixup | 0.15 | MixUp 增强（15% 概率） |
 | copy_paste | 0.1 | Copy-Paste 增强（10% 概率） |
+# 5.用法（假设已经配置好了cuda和pytorch等深度学习环境）
+5.1 下载这个代码包
+5.2 pip install -r requirements.txt 进行依赖的安装
+5.3 python track.py 你录制的视频名称.mp4
+5.4 获得输出output.mp4
 
